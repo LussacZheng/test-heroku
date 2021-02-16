@@ -1,4 +1,5 @@
 {
+  "_usage": "This file is used for 'Deploy to Heroku' Button. See https://devcenter.heroku.com/articles/heroku-button for details.",
   "name": "dandanplay-resource-service",
   "description": "API implementations for \"dandanplay\" resource search service, in Golang",
   "keywords": ["dandanplay", "api-service", "resource-search", "web-scraper", "heroku"],
@@ -14,11 +15,11 @@
   ],
   "env": {
     "PROJECT_PATH": {
-      "description": "[DON'T modify!] <br> Point to a subdirectory that is the project root. See <br> https://medium.com/@timanovsky/heroku-buildpack-to-support-deployment-from-subdirectory-e743c2c838dd <br> for details.",
+      "description": "[DON'T modify!] \n Point to a **subdirectory** that is the project root. See \n [here](https://medium.com/@timanovsky/heroku-buildpack-to-support-deployment-from-subdirectory-e743c2c838dd \n for details.",
       "value": "golang"
     },
     "GOVERSION": {
-      "description": "Specify a Go version for this project. See \n https://github.com/heroku/heroku-buildpack-go/issues/301#issuecomment-632663726 \n for details.",
+      "description": "Specify a Go version for this project. See \n \"https://github.com/heroku/heroku-buildpack-go/issues/301#issuecomment-632663726\" \n for details.",
       "value": "go1.15"
     }
   },
