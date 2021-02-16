@@ -14,7 +14,7 @@
   ],
   "env": {
     "PROJECT_PATH": {
-      "description": "[DON'T modify!] \n Point to a subdirectory that is the project root. See \n https://medium.com/@timanovsky/heroku-buildpack-to-support-deployment-from-subdirectory-e743c2c838dd \n for details.",
+      "description": "[DON'T modify!] <br> Point to a subdirectory that is the project root. See <br> https://medium.com/@timanovsky/heroku-buildpack-to-support-deployment-from-subdirectory-e743c2c838dd <br> for details.",
       "value": "golang"
     },
     "GOVERSION": {
