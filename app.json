@@ -1,0 +1,26 @@
+{
+  "name": "dandanplay-resource-service",
+  "description": "API implementations for \"dandanplay\" resource search service.",
+  "keywords": ["dandanplay", "api-service", "resource-search", "web-scraper", "heroku"],
+  "website": "https://github.com/LussacZheng/dandanplay-resource-service",
+  "repository": "https://github.com/LussacZheng/dandanplay-resource-service",
+  "buildpacks": [
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ],
+  "env": {
+    "PROJECT_PATH": {
+      "description": "Point to what you want to be a project root. See https://medium.com/@timanovsky/heroku-buildpack-to-support-deployment-from-subdirectory-e743c2c838dd for details.",
+      "value": "golang"
+    },
+    "GOVERSION": {
+      "description": "Specify a Go version for this project. See https://github.com/heroku/heroku-buildpack-go/issues/301#issuecomment-632663726 for details.",
+      "value": "go1.15"
+    }
+  },
+  "success_url": "/"
+}
